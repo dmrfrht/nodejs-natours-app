@@ -10,7 +10,7 @@ process.on('uncaughtException', err => {
 dotenv.config({ path: './config.env' })
 const app = require('./app')
 
-mongoose.connect("mongodb+srv://rootUser:024681357@cluster0.ww4aa.mongodb.net/natoursDB?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv://rootUser:0246813579@cluster0.ww4aa.mongodb.net/natoursDB?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useCreateIndex: true,
   useFindAndModify: false,
